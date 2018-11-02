@@ -6,8 +6,8 @@ This project simple quiz system where user can fill different quizzes
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-For development was used WAMP server with following parameters:
--- Apache server version: 5.7.23
+For development was used WAMP server with following server versions:
+-- Apacheversion: 5.7.23
 -- PHP Version: 7.2.10
 -- phpmysqladmin version 4.8.3
 
