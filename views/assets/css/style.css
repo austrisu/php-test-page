@@ -1,0 +1,102 @@
+/* removes default margins and paddings */
+*{
+  margin:0;
+  padding:0;
+  font-family: Roboto;
+}
+
+body{
+  color: gray;
+}
+
+
+/* contains all elemnts */
+.container{
+  max-width:700px;
+  margin:auto;
+  padding-top: 100px;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.test-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* stules all test-form elements */
+.test-form *{
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+/* start of error message of home page */
+.error-msg{
+  padding-left: 10px;
+  opacity: 0;
+  color:#47000B;
+  font-size: small;
+  border-radius: 3px;
+  background: rgba(111, 3, 20,0.2);
+  border: 0.5px solid #47000B;
+  padding: 5px;
+  transition: all 1s;
+}
+
+
+.error-msg p{
+  margin:0;
+}
+
+/* styles of answer page */
+.answer-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.answer-form .answer-container{
+  width:45%;
+  padding-bottom: 20px;
+}
+
+/* Style of progres barr */
+.progress{
+  margin: auto;
+  background: white;
+  width:50%;
+  height: 20px;
+  border: 1px solid  #6F0314;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.finished{
+  width: 30%;
+  background-color: #6F0314;
+  height: inherit;
+}
+
+/* breaks for responsive design */
+
+@media only screen and (max-width: 600px) {
+  .answer-form div{
+    width:80%;
+    padding-bottom: 20px;
+  }
+}
+
+
+/* style for final page */
+.final-main p{
+  text-align: center;
+  margin-bottom: 50px;
+}

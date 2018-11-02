@@ -1,0 +1,38 @@
+input[type="text"]{
+  color: #333;
+  width: 80%;
+  box-sizing:border-box;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+:focus{
+  outline: none;
+}
+
+.effect-1{
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.effect-1 ~ .focus-border-container-1{
+    width:80%;
+    display: flex;
+
+}
+
+  .effect-1 ~ .focus-border-container-1 .focus-border-1{
+    display:block;
+    width: 0;
+    height: 2px;
+    background-color: #4caf50;
+    transition: 0.4s;
+  }
+
+.effect-1:focus ~ .focus-border-container-1 .focus-border-1{
+
+  width: 100%;
+  transition: 0.4s;
+}
